@@ -1,0 +1,7 @@
+#PCDN
+||szbdyd.com^
+||mcdn.bilivideo.cn^
+||tpa-hcdn.iqiyi.com^
+||pcdn.xmcdn.com^
+/.*pcdn.*biliapi.net/
+/.*pcdn.*youku.com/
