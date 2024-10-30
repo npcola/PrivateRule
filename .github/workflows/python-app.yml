@@ -41,5 +41,6 @@ jobs:
         
     - name: Delete workflow runs
       with:
+        uses: actions/checkout@v2
         retain_days: 1
         keep_minimum_runs: 5
