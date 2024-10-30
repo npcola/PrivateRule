@@ -15,10 +15,10 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@main
 
     - name: Set up Python
-      uses: actions/setup-python@v2
+      uses: actions/setup-python@main
       with:
         python-version: '3.x'
 
@@ -39,8 +39,8 @@ jobs:
         git commit -m "Update" || echo "No changes to commit"
         git push
         
-    - name: Delete workflow runs
-      uses: actions/Delete-workflow-runs@v2
+    - name: Deleteworkflow
+      uses: actions/Deleteworkflow@main
       with: 
         retain_days: 1
         keep_minimum_runs: 5
