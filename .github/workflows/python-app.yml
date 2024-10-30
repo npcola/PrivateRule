@@ -39,8 +39,8 @@ jobs:
         git commit -m "Update" || echo "No changes to commit"
         git push
         
-    - name: Deleteworkflow
-      uses: actions/Deleteworkflow@main
+    - name: Delete workflow runs
+      uses: Mattraks/delete-workflow-runs@main
       with: 
         retain_days: 1
         keep_minimum_runs: 5
