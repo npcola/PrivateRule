@@ -40,7 +40,6 @@ jobs:
         git push
         
     - name: Delete workflow runs
-      uses: actions/upload-artifact@v2
       with:
         retain_days: 1
         keep_minimum_runs: 5
