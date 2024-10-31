@@ -5,3 +5,5 @@
 ||pcdn.xmcdn.com^
 /.*pcdn.*biliapi.net/
 /.*pcdn.*youku.com/
+#weibo
+||bootpreload.uve.weibo.com^
