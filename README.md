@@ -9,9 +9,10 @@
 
 ## 上游规则源
 
-|       规则名        |                   源链接                    |
-| :-----------------: | :-----------------------------------------: |
-| AdBlock DNS Filters | https://github.com/217heidai/adblockfilters |
-|        OISD         |             https://big.oisd.nl             |
-|        其他         |                    PCDN                     |
+|       规则名        |                      源链接                      |
+| :-----------------: | :----------------------------------------------: |
+| AdBlock DNS Filters |   https://github.com/217heidai/adblockfilters    |
+|        OISD         |               https://big.oisd.nl                |
+|  AWAvenue-Ads-Rule  | https://github.com/TG-Twilight/AWAvenue-Ads-Rule |
+|        其他         |                                                  |
 
