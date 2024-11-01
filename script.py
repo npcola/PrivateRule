@@ -28,6 +28,10 @@ def remove_specified_lines(contents):
     # 删除以“!”和“[”开头的行
     return '\n'.join([line for line in contents.splitlines() if not (line.startswith('!') or line.startswith('['))])
 
+def remove_empty_lines(contents):
+    # 删除空行
+    return '\n'.join([line for line in contents.splitlines() if line.strip()])
+
 def save_to_file(contents, file_name):
     with open(file_name, 'w') as file:
         file.write(contents)
@@ -53,6 +57,9 @@ def main():
     
     # 删除以“!”和“[”开头的行
     filtered_content = remove_specified_lines(combined_content)
+
+    # 删除空行
+    no_empty_lines_content = remove_empty_lines(filtered_content)
     
     # 保存到新文件
     save_to_file(filtered_content, 'Private Rule.txt')
